@@ -1,0 +1,9 @@
+name: "LocalGov Claro"
+description: "Sub-theme of Claro for LGD sites."
+type: theme
+core_version_requirement: ^8.8 || ^9
+base theme: "claro"
+
+libraries-extend:
+  claro/node-form:
+    - lgd_claro/node-form
